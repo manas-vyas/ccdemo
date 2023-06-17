@@ -46,8 +46,8 @@
 	</build>
 	<repositories>
              <repository>
-                 <id>maven-proxcy</id>
-                 <url>http://172.31.1.38:8081/repository/maven-proxcy/</url>
+                 <id>maven-group</id>
+                 <url>http://172.31.1.38:8081/repository/maven-group/</url>
              </repository>
         </repositories>
 </project>
