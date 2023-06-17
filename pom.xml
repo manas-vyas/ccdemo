@@ -44,5 +44,10 @@
 		</plugins>
 		<finalName>${artifactId}</finalName>
 	</build>
-
+	<repositories>
+    <repository>
+      <id>maven-proxcy</id>
+      <url>http://172.31.1.38:8081/repository/maven-proxcy/</url>
+    </repository>
+  </repositories>
 </project>
