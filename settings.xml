@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+  <servers>
+    <server>
+      <id>custom-maven-snap-repo</id>
+      <username>admin</username>
+      <password>manas123</password>
+    </server>
+    <server>
+      <id>upload-artifact</id>
+      <username>admin</username>                                                                                
+      <password>manas@123</password>
+    </server>
+        <server>
+        <id>custom-maven-release-repo</id>
+      <username>admin</username>                                                                                
+      <password>manas123</password>
+    </server>
+    <server>
+        <id>custom-maven-group</id>
+      <username>admin</username>                                                                                
+      <password>manas123</password>
+    </server>
+  </servers>
+  <mirrors>
+    <mirror>
+      <id>maven-proxcy</id>
+      <name>maven-proxcy</name>
+      <url>http://13.234.217.58:8081/repository/custom-maven-group/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+</settings>
