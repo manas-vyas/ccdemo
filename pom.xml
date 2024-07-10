@@ -47,7 +47,7 @@
 	<repositories>
              <repository>
                  <id>maven-group</id>
-                 <url>http://172.31.1.38:8081/repository/maven-group/</url>
+                 <url>http://172.31.38.51:8081/repository/custom-maven-group/</url>
              </repository>
         </repositories>
 </project>
