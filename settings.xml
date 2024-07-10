@@ -26,8 +26,8 @@
   </servers>
   <mirrors>
     <mirror>
-      <id>maven-proxcy</id>
-      <name>maven-proxcy</name>
+      <id>custom-maven-snap-repo</id>
+      <name>custom-maven-snap-repo</name>
       <url>http://172.31.38.51:8081/repository/custom-maven-group/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
