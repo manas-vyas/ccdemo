@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
   <servers>
     <server>
-      <id>custom-maven-snap-repo</id>
+      <id>custom-maven-release-repo</id>
       <username>admin</username>
       <password>manas123</password>
     </server>
@@ -14,7 +14,7 @@
       <password>manas@123</password>
     </server>
         <server>
-        <id>custom-maven-release-repo</id>
+        <id>custom-maven-snap-repo</id>
       <username>admin</username>                                                                                
       <password>manas123</password>
     </server>
