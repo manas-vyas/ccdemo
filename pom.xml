@@ -46,8 +46,8 @@
 	</build>
 	<repositories>
              <repository>
-                 <id>maven-group</id>
-                 <url>http://172.31.38.51:8081/repository/custom-maven-snap-repo/</url>
+                 <id>custom-maven-group</id>
+                 <url>http://172.31.38.51:8081/repository/custom-maven-group/</url>
              </repository>
         </repositories>
 </project>
