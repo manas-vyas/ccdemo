@@ -53,11 +53,11 @@
 <distributionManagement> 
   <repository>
      <id>Custom-artifact-release-repo</id>
-	 <url>http://172.31.1.100:8081/repository/maven-releases/</url>
+	 <url>http://172.31.1.100:8081/repository/Custom-artifact-release-repo/</url>
   </repository> 
   <snapshotRepository>
      <id>Custom-artifact-snapshot-repo</id>
-	 <url>http://172.31.1.100:8081/repository/maven-releases/</url>
+	 <url>http://172.31.1.100:8081/repository/Custom-artifact-snapshot-repo/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
