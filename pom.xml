@@ -50,4 +50,14 @@
                  <url>http://172.31.1.100:8081/repository/custom-maven-group/</url>
              </repository>
         </repositories>
+<distributionManagement> 
+  <repository>
+     <id>Custom-artifact-release-repo</id>
+	 <url>http://172.31.1.100:8081/repository/maven-releases/</url>
+  </repository> 
+  <snapshotRepository>
+     <id>Custom-artifact-snapshot-repo</id>
+	 <url>http://172.31.1.100:8081/repository/maven-releases/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
