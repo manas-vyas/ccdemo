@@ -64,7 +64,7 @@
                                                 </goals>
                                        </execution>
                                 </executions>
-                    </plugin>I
+                    </plugin>
 		</plugins>
 		<finalName>${artifactId}</finalName>
 	</build>
