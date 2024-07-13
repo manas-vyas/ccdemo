@@ -77,11 +77,11 @@
 <distributionManagement> 
   <repository>
      <id>Custom-artifact-release-repo</id>
-	 <url>http://172.31.1.100:8081/repository/Custom-artifact-release-repo/</url>
+	 <url>http://172.31.4.215:8081/repository/Custom-artifact-release-repo/</url>
   </repository> 
   <snapshotRepository>
      <id>Custom-artifact-snapshot-repo</id>
-	 <url>http://172.31.1.100:8081/repository/Custom-artifact-snapshot-repo/</url>
+	 <url>http://172.31.4.215:8081/repository/Custom-artifact-snapshot-repo/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
