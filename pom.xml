@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.stacksimplify</groupId>
 	<artifactId>ccdemo</artifactId>
-	<version>6.0.0-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>ccdemo</name>
 	<description>Demo project for Spring Boot</description>
@@ -79,7 +79,7 @@
         <version>2.8.2</version>
         <configuration>
           <repositoryId>Custom-artifact-release-repo</repositoryId>
-          <url>http://172.31.2.71:8081/repository/Custom-artifact-release-repo/</url>
+          <url>http://172.31.15.75:8081/repository/Custom-artifact-release-repo/</url>
         </configuration>
       </plugin>
 		</plugins>
@@ -88,17 +88,17 @@
 	<repositories>
              <repository>
                  <id>custom-maven-group</id>
-                 <url>http://172.31.2.71:8081/repository/custom-maven-group/</url>
+                 <url>http://172.31.15.75:8081/repository/custom-maven-group/</url>
              </repository>
         </repositories>
 <distributionManagement> 
   <repository>
      <id>Custom-artifact-release-repo</id>
-	 <url>http://172.31.2.71:8081/repository/Custom-artifact-release-repo/</url>
+	 <url>http://172.31.15.75:8081/repository/Custom-artifact-release-repo/</url>
   </repository> 
   <snapshotRepository>
      <id>Custom-artifact-snapshot-repo</id>
-	 <url>http://172.31.2.71:8081/repository/Custom-artifact-snapshot-repo/</url>
+	 <url>http://172.31.15.75:8081/repository/Custom-artifact-snapshot-repo/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
