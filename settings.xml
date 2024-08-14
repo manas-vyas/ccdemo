@@ -28,7 +28,7 @@
     <mirror>
       <id>custom-maven-release-repo</id>
       <name>custom-maven-release-repo</name>
-      <url>http://172.31.5.169:8081/repository/custom-maven-group/</url>
+      <url>http://172.31.40.169:8081/repository/custom-maven-group/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
